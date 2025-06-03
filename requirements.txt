@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+ollama
+streamlit
+faiss-cpu
+transformers
+torch
+PyPDF2
+pypdf
+requests 
+langchain
+langchain-community
+langchain-huggingface
+langchain-core
+langchain-text-splitters
+tiktoken

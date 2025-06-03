@@ -1,0 +1,9 @@
+services:
+  law_chatbot:
+    build: .
+    ports:
+      - "8000:8000"  # FastAPI 后端
+      - "8501:8501"  # Streamlit 前端
+      - "11434:11434"  # Ollama 服务端口
+    volumes:
+      - ./data:/app/data
