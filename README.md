@@ -13,6 +13,7 @@
 | 🔐 安全边界  | ✅ 限制非法问题                   | 防止用户问与法律无关的内容             | 规则判断 or 分类模型过滤                                              |
 | 🧪 工程能力  | ✅ 自动化测试接口                  | 对 API 提交合法问题，验证输出         | FastAPI TestClient / pytest                                 |
 | 🚀 性能优化  | ✅ 嵌入缓存                     | 对相同问题不重复嵌入，提高速度           | FAISS / SQLite 缓存向量或LangChain Retriever Cache               |
+| 📅Google日历写入功能
 ```
 
 ## 上手试试吧！快速开始！
